@@ -19,4 +19,14 @@ func _physics_process(delta: float) -> void:
 	velocity.x = SPEED * delta
 
 	move_and_slide()
-hola
+George
+
+el codigo para rotation del jugador
+$Sprite2D.rotation_degrees += 380 * delta
+	else :
+		var modulo = int($Sprite2D.rotation_degrees) % 90;
+	
+		if modulo > 45 :
+			$Sprite2D.rotation_degrees += (90 - modulo)
+		else :
+			$Sprite2D.rotation_degrees -= modulo
