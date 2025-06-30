@@ -58,7 +58,12 @@ func death():
 	SPEED = 0
 	$Sprite2D.visible = false
 	$Timer.start()
-	
+
+ transition
 
 func _on_timer_timeout() -> void:
 	get_tree().reload_current_scene()
+
+ func _on_puerta_body_entered(body: Node2D) -> void:
+	get_tree().change_scene_to_file("res://escenario/NIVEL2.tscn")
+	pass # Replace with function body. 
