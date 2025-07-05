@@ -1,3 +1,31 @@
+🟦 Game Title: Spike Sprint
+👥 Team: George Mena, Uriel Aguilar
+
+🎮 Game Description:
+Spike Sprint is a fast-paced obstacle game inspired by Geometry Dash and The Impossible Game. The player controls the cube to jump over obstucles and dangerous spikes. The goal is to try to complete the levels without dying and collecting 3 coins on levels.
+
+Mechanics used:
+Automatic foward movement
+Up-Arrow, Space Bar or Mouse click
+Collision detection on obstucles
+Restarting on player's death
+Level Progression
+Coin collecting
+
+📦 Resources Used
+Assets:
+Sprites: Player Icon Cube, spikes, blocks, and coins
+
+🗺️ Scene Descriptions
+Tutorial/Level 1:
+Basic Movement and jumping over blocks, introducing the game mechanic for jumping.
+
+Level 2:
+Spikes are introduced and makes the level harder to pass, jumping over obstucles and collecting 3 coins on hard areas.
+Death: Player dies, shows the area where they died and restarts the level to the beginning.
+Player: Icon rotates on jumping or falling
+
+
 George
 codigo para el movimiento y el  brinco para el jugador:
 
