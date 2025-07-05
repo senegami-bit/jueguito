@@ -26,9 +26,9 @@ Death: Player dies, shows the area where they died and restarts the level to the
 Player: Icon rotates on jumping or falling
 
 
-George
-codigo para el movimiento y el  brinco para el jugador:
+🧑‍💻 Code Descriptions
 
+player.gd
 extends CharacterBody2D
 
 
@@ -50,9 +50,6 @@ func _physics_process(delta: float) -> void:
 	velocity.x = SPEED * delta
 
 	move_and_slide()
-George
-
-el codigo para rotation del jugador:
 
 $Sprite2D.rotation_degrees += 380 * delta
 	else :
@@ -63,9 +60,8 @@ $Sprite2D.rotation_degrees += 380 * delta
 		else :
 			$Sprite2D.rotation_degrees -= modulo
 
-   George
-   el codigo para el muerto del jugador cuando se pega a un pincha (spike) o bloque:
-   
+  
+   spike.gd
    extends Area2D
 
 func _on_body_entered(body):
@@ -86,8 +82,8 @@ func death():
 	SPEED = 0
 	$Sprite2D.visible = false
 	$Timer.start()
-
- transition
+ 
+transition.gd
 
 func _on_timer_timeout() -> void:
 	get_tree().reload_current_scene()
@@ -95,3 +91,15 @@ func _on_timer_timeout() -> void:
  func _on_puerta_body_entered(body: Node2D) -> void:
 	get_tree().change_scene_to_file("res://escenario/NIVEL2.tscn")
 	pass # Replace with function body. 
+
+🛠️ Difficulties Encountered Using Collaborative Tools
+
+Collaborator 1: George
+
+Struggled with Spike Collision hitbox
+
+Learned how to use Collision and Sprite2D more better
+
+Faced Conflicts on Speed and Gravity
+
+Collaborator 2: Uriel
