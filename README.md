@@ -25,7 +25,7 @@ Assets:
 
 ![image of the spike](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fgreaterhtrae%2Fart%2FSpike-1011766972&psig=AOvVaw1-YOKju8k2E_gHfQ9wA2xc&ust=1751940963057000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOjNh-fWqY4DFQAAAAAdAAAAABAE)
 
-![image of the coin](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fgeometrydash%2Fcomments%2F1cgxfzv%2Fwhats_the_worst_coin_in_gd_including_subzero%2F&psig=AOvVaw0Ur9KlpMQGmL7ttOmxAsbb&ust=1751940996372000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLiCovbWqY4DFQAAAAAdAAAAABAE)
+![image of the coin](https://i.redd.it/whats-the-worst-coin-in-gd-including-subzero-meltdown-and-v0-uz6s5vwxanxc1.jpg?width=750&format=pjpg&auto=webp&s=f976f0eb80a08c42ddc9dbf61bd76e6c91002e57)
  
 
 
