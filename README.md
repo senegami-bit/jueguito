@@ -42,35 +42,51 @@ Spikes are introduced and makes the level harder to pass, jumping over obstucles
 Death: Player dies, shows the area where they died and restarts the level to the beginning.
 Player: Icon rotates on jumping or falling
 
+# Player/Character
+
+![Screenshot 2025-07-06 193225](https://github.com/user-attachments/assets/6327272a-ed35-479a-92fd-4703ebe86850)
+
+# Spike/Enemy
+
+![Screenshot 2025-07-06 193255](https://github.com/user-attachments/assets/c3fe70bd-96a4-4269-8793-53d2a7297cab)
+
+# Platform/Block
+
+![Screenshot 2025-07-06 193237](https://github.com/user-attachments/assets/c5f2d3e4-7e04-4b44-8230-6c5642f06cf1)
+
+# Coin
+
+![Screenshot 2025-07-06 193304](https://github.com/user-attachments/assets/5226dbcc-d903-499c-9e73-00424de33a8e)
+
 
 # 🧑‍💻 Code Descriptions
 
-player.gd
+- Character/Player code
 
 
-    extends CharacterBody2D
+      extends CharacterBody2D
 
 
-    const SPEED = 35500
-     const JUMP_VELOCITY = -1000
+      const SPEED = 35500
+      const JUMP_VELOCITY = -1000
 
-    var gravedad = 4100
+      var gravedad = 4100
 
-    func _physics_process(delta: float) -> void:
-	#gravedad
-	if not is_on_floor():
+      func _physics_process(delta: float) -> void:
+	  #gravedad
+	  if not is_on_floor():
 		velocity += get_gravity() * delta
 
-	#salto
-	if Input.is_action_pressed("salto") and is_on_floor():
+	  #salto
+	  if Input.is_action_pressed("salto") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 
-	velocity.x = SPEED * delta
+	  velocity.x = SPEED * delta
 
-	move_and_slide()
+	  move_and_slide()
 
-    $Sprite2D.rotation_degrees += 380 * delta
-	else :
+      $Sprite2D.rotation_degrees += 380 * delta
+	  else :
 		var modulo = int($Sprite2D.rotation_degrees) % 90;
 	
 		if modulo > 45 :
@@ -79,12 +95,12 @@ player.gd
 			$Sprite2D.rotation_degrees -= modulo
 
   
-  # Spike.gd
+  - Spike code
    
-    extends Area2D
+        extends Area2D
 
-    func _on_body_entered(body):
-	if body.is_in_group("kill") :
+        func _on_body_entered(body):
+	    if body.is_in_group("kill") :
 		$"..".death()
 		self.queue_free()
   
@@ -97,21 +113,21 @@ y para externo muerte:
 		$"..".death()
 		self.queue_free()
   
-tambien hizo un cambio del jugador para un nuevo hitbox de muerte para los pinchas (spikes):
+(tambien hizo un cambio del jugador para un nuevo hitbox de muerte para los pinchas (spikes):)
 
     func death():
 	SPEED = 0
 	$Sprite2D.visible = false
 	$Timer.start()
  
-transition.gd
+- Transitions
 
-    func _on_timer_timeout() -> void:
-	get_tree().reload_current_scene()
+      func _on_timer_timeout() -> void:
+	  get_tree().reload_current_scene()
 
-    func _on_puerta_body_entered(body: Node2D) -> void:
-	get_tree().change_scene_to_file("res://escenario/NIVEL2.tscn")
-	pass # Replace with function body. 
+      func _on_puerta_body_entered(body: Node2D) -> void:
+	  get_tree().change_scene_to_file("res://escenario/NIVEL2.tscn")
+	  pass # Replace with function body. 
 
 # 🛠️ Difficulties Encountered Using Collaborative Tools
 
@@ -120,3 +136,10 @@ transition.gd
 
 
 Collaborator 2: Uriel
+
+
+
+# Conclusion
+
+It was a very long process trying to make the game to function. Git showed us coding and transfer codes to others easily without losing progress.
+Also, it took days to find the perfect code to make it function well and without any errors. Next time, we will use other ways to send files easily without losing progrss.
