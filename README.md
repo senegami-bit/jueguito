@@ -30,9 +30,14 @@ Coin collecting
 
 # 🗺️ Scene Descriptions
 Tutorial/Level 1:
+![Screenshot 2025-07-06 192724](https://github.com/user-attachments/assets/965011c2-30ca-4f23-b697-0b2e5156d486)
+
 Basic Movement and jumping over blocks, introducing the game mechanic for jumping.
 
+
 # Level 2:
+![Screenshot 2025-07-05 123928](https://github.com/user-attachments/assets/8dac073a-7f4b-462b-a07f-ff7eb011a764)
+
 Spikes are introduced and makes the level harder to pass, jumping over obstucles and collecting 3 coins on hard areas.
 Death: Player dies, shows the area where they died and restarts the level to the beginning.
 Player: Icon rotates on jumping or falling
