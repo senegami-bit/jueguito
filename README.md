@@ -15,15 +15,14 @@ Restarting on player's death
 Level Progression
 Coin collecting
 
-# 📦 Resources Used
-Assets:
+# 📦 Resources Used (ASSETS and Sprites)
 
  # Images
 ![image of the player icon](https://i.pinimg.com/474x/dd/b4/b2/ddb4b288d3eb1b7b669e77e3d21f9566.jpg)
 
 ![image of the platform or block](https://static.wikia.nocookie.net/geometry-dash/images/0/01/RegularBlock01.png/revision/latest?cb=20160604070948)
 
-![image of the spike](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2f961ba4-4243-4889-928c-e7f4c2d38614/dgqdoe4-e953f151-5935-4e8c-a24c-7b29b8a09b8a.png/v1/fill/w_285,h_284/spike_by_greaterhtrae_dgqdoe4-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Mjg0IiwicGF0aCI6IlwvZlwvMmY5NjFiYTQtNDI0My00ODg5LTkyOGMtZTdmNGMyZDM4NjE0XC9kZ3Fkb2U0LWU5NTNmMTUxLTU5M)
+![image of the spike](https://tiermaker.com/images/media/template_images/2024/16361404/gd-spike-tier-list-16361404/screenshot20231120-203009-997.png)
 
 ![image of the coin](https://image.pngaaa.com/688/3664688-middle.png)
  
