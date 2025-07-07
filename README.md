@@ -17,7 +17,17 @@ Coin collecting
 
 # 📦 Resources Used
 Assets:
-Sprites: Player Icon Cube, spikes, blocks, and coins
+
+ # Images
+![image of the player icon](https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.pinterest.com%2Fpin%2F913878949359893335%2F&psig=AOvVaw1zLBw1oGLoSM-DnFJsrUx8&ust=1751940822134000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNjHvqPWqY4DFQAAAAAdAAAAABAE)
+
+![image of the platform or block](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgeometry-dash.fandom.com%2Fwiki%2FObjects&psig=AOvVaw0UiRLPNupouO9kFfAVCPgt&ust=1751940922138000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKD1kdTWqY4DFQAAAAAdAAAAABAE)
+
+![image of the spike](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fgreaterhtrae%2Fart%2FSpike-1011766972&psig=AOvVaw1-YOKju8k2E_gHfQ9wA2xc&ust=1751940963057000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOjNh-fWqY4DFQAAAAAdAAAAABAE)
+
+![image of the coin](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fgeometrydash%2Fcomments%2F1cgxfzv%2Fwhats_the_worst_coin_in_gd_including_subzero%2F&psig=AOvVaw0Ur9KlpMQGmL7ttOmxAsbb&ust=1751940996372000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLiCovbWqY4DFQAAAAAdAAAAABAE)
+ 
+
 
 # 🗺️ Scene Descriptions
 Tutorial/Level 1:
@@ -29,19 +39,20 @@ Death: Player dies, shows the area where they died and restarts the level to the
 Player: Icon rotates on jumping or falling
 
 
-#🧑‍💻 Code Descriptions
+# 🧑‍💻 Code Descriptions
 
-#player.gd
-extends CharacterBody2D
-
-
-const SPEED = 35500
-const JUMP_VELOCITY = -1000
-
-var gravedad = 4100
+player.gd
 
 
-#func _physics_process(delta: float) -> void:
+    extends CharacterBody2D
+
+
+    const SPEED = 35500
+     const JUMP_VELOCITY = -1000
+
+    var gravedad = 4100
+
+    func _physics_process(delta: float) -> void:
 	#gravedad
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -54,7 +65,7 @@ var gravedad = 4100
 
 	move_and_slide()
 
-#$Sprite2D.rotation_degrees += 380 * delta
+    $Sprite2D.rotation_degrees += 380 * delta
 	else :
 		var modulo = int($Sprite2D.rotation_degrees) % 90;
 	
@@ -64,45 +75,44 @@ var gravedad = 4100
 			$Sprite2D.rotation_degrees -= modulo
 
   
-  # spike.gd
-   extends Area2D
+  # Spike.gd
+   
+    extends Area2D
 
-func _on_body_entered(body):
+    func _on_body_entered(body):
 	if body.is_in_group("kill") :
 		$"..".death()
 		self.queue_free()
   
 y para externo muerte:
-extends Area2D
 
-func _on_area_entered(area: Area2D) -> void:
+    extends Area2D
+
+    func _on_area_entered(area: Area2D) -> void:
 	if area.is_in_group("kill") :
 		$"..".death()
 		self.queue_free()
   
 tambien hizo un cambio del jugador para un nuevo hitbox de muerte para los pinchas (spikes):
-func death():
+
+    func death():
 	SPEED = 0
 	$Sprite2D.visible = false
 	$Timer.start()
  
 transition.gd
 
-func _on_timer_timeout() -> void:
+    func _on_timer_timeout() -> void:
 	get_tree().reload_current_scene()
 
- func _on_puerta_body_entered(body: Node2D) -> void:
+    func _on_puerta_body_entered(body: Node2D) -> void:
 	get_tree().change_scene_to_file("res://escenario/NIVEL2.tscn")
 	pass # Replace with function body. 
 
 # 🛠️ Difficulties Encountered Using Collaborative Tools
 
-Collaborator 1: George
+ George: I had difficulty running the game and had issues with assets not working. It took me 30 mins to figure out how to collect coins and make the player speed
+ and gravity to be perfect. For the coin, I couldn't figure how to collect coin to be labeled on the top left.
 
-Struggled with Spike Collision hitbox
-
-Learned how to use Collision and Sprite2D more better
-
-Faced Conflicts on Speed and Gravity
 
 Collaborator 2: Uriel
