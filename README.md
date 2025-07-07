@@ -19,11 +19,10 @@ Coin collecting
 Assets:
 
  # Images
-![image of the player icon](https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.pinterest.com%2Fpin%2F913878949359893335%2F&psig=AOvVaw1zLBw1oGLoSM-DnFJsrUx8&ust=1751940822134000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNjHvqPWqY4DFQAAAAAdAAAAABAE)
+![image of the player icon](https://i.pinimg.com/474x/dd/b4/b2/ddb4b288d3eb1b7b669e77e3d21f9566.jpg)
+![image of the platform or block](https://static.wikia.nocookie.net/geometry-dash/images/0/01/RegularBlock01.png/revision/latest?cb=20160604070948)
 
-![image of the platform or block](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgeometry-dash.fandom.com%2Fwiki%2FObjects&psig=AOvVaw0UiRLPNupouO9kFfAVCPgt&ust=1751940922138000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKD1kdTWqY4DFQAAAAAdAAAAABAE)
-
-![image of the spike](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fgreaterhtrae%2Fart%2FSpike-1011766972&psig=AOvVaw1-YOKju8k2E_gHfQ9wA2xc&ust=1751940963057000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOjNh-fWqY4DFQAAAAAdAAAAABAE)
+![image of the spike](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2f961ba4-4243-4889-928c-e7f4c2d38614/dgqdoe4-e953f151-5935-4e8c-a24c-7b29b8a09b8a.png/v1/fill/w_285,h_284/spike_by_greaterhtrae_dgqdoe4-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Mjg0IiwicGF0aCI6IlwvZlwvMmY5NjFiYTQtNDI0My00ODg5LTkyOGMtZTdmNGMyZDM4NjE0XC9kZ3Fkb2U0LWU5NTNmMTUxLTU5M)
 
 ![image of the coin](https://i.redd.it/whats-the-worst-coin-in-gd-including-subzero-meltdown-and-v0-uz6s5vwxanxc1.jpg?width=750&format=pjpg&auto=webp&s=f976f0eb80a08c42ddc9dbf61bd76e6c91002e57)
  
