@@ -135,7 +135,7 @@ y para externo muerte:
  and gravity to be perfect. For the coin, I couldn't figure how to collect coin to be labeled on the top left.
 
 
-Collaborator 2: Uriel
+ Uriel:
 
 
 
