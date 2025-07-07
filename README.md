@@ -136,7 +136,8 @@ y para externo muerte:
 
 
  Uriel:
-
+I had problems on the animations for a transition, at first, I did the coding for the transition and it worked, however, it was glitching on Level 2
+Then, I figured out that the Collsion Size for the transition needs to be on top of the level.
 
 
 # Conclusion
