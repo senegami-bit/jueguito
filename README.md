@@ -1,10 +1,13 @@
-🟦 Game Title: Spike Sprint
-👥 Team: George Mena, Uriel Aguilar
+# 🟦 Game Title: Spike Sprint
 
-🎮 Game Description:
-Spike Sprint is a fast-paced obstacle game inspired by Geometry Dash and The Impossible Game. The player controls the cube to jump over obstucles and dangerous spikes. The goal is to try to complete the levels without dying and collecting 3 coins on levels.
+# 👥 Team: George Mena, Uriel Aguilar
 
-Mechanics used:
+# 🎮 Game Description:
+Spike Sprint is a fast-paced obstacle game inspired by Geometry Dash and The Impossible Game. 
+The player controls the cube to jump over obstucles and dangerous spikes. 
+The goal is to try to complete the levels without dying and collecting 3 coins on levels.
+
+# Mechanics used:
 Automatic foward movement
 Up-Arrow, Space Bar or Mouse click
 Collision detection on obstucles
@@ -12,23 +15,23 @@ Restarting on player's death
 Level Progression
 Coin collecting
 
-📦 Resources Used
+# 📦 Resources Used
 Assets:
 Sprites: Player Icon Cube, spikes, blocks, and coins
 
-🗺️ Scene Descriptions
+# 🗺️ Scene Descriptions
 Tutorial/Level 1:
 Basic Movement and jumping over blocks, introducing the game mechanic for jumping.
 
-Level 2:
+# Level 2:
 Spikes are introduced and makes the level harder to pass, jumping over obstucles and collecting 3 coins on hard areas.
 Death: Player dies, shows the area where they died and restarts the level to the beginning.
 Player: Icon rotates on jumping or falling
 
 
-🧑‍💻 Code Descriptions
+#🧑‍💻 Code Descriptions
 
-player.gd
+#player.gd
 extends CharacterBody2D
 
 
@@ -38,7 +41,7 @@ const JUMP_VELOCITY = -1000
 var gravedad = 4100
 
 
-func _physics_process(delta: float) -> void:
+#func _physics_process(delta: float) -> void:
 	#gravedad
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -51,7 +54,7 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 
-$Sprite2D.rotation_degrees += 380 * delta
+#$Sprite2D.rotation_degrees += 380 * delta
 	else :
 		var modulo = int($Sprite2D.rotation_degrees) % 90;
 	
@@ -61,7 +64,7 @@ $Sprite2D.rotation_degrees += 380 * delta
 			$Sprite2D.rotation_degrees -= modulo
 
   
-   spike.gd
+  # spike.gd
    extends Area2D
 
 func _on_body_entered(body):
@@ -92,7 +95,7 @@ func _on_timer_timeout() -> void:
 	get_tree().change_scene_to_file("res://escenario/NIVEL2.tscn")
 	pass # Replace with function body. 
 
-🛠️ Difficulties Encountered Using Collaborative Tools
+# 🛠️ Difficulties Encountered Using Collaborative Tools
 
 Collaborator 1: George
 
